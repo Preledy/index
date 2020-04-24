@@ -1,13 +1,9 @@
-<html>
-
-<title>欢迎访问zhaohuiyou的Github</title>
-
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-
- <style type="text/css">
-<!设置图片的自适应屏幕>
+<html><head>
+	
+	<title>欢迎访问zhaohuiyou的Github</title>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8">
+	<style media="screen" type="text/css">
+	<!设置图片的自适应屏幕>
 img{height: auto; width: auto\9; width:100%;}
 .middel {
 
@@ -174,11 +170,53 @@ img{height: auto; width: auto\9; width:100%;}
 
    }
 
- </style>
-
-</head>
-
-<marquee direction=left><h5>The copyright© of this page belongs to Zhao Huiyou.</h5></marquee>
+	html,
+	body {
+		margin:0;
+		padding:0;
+		height:100%;
+	}
+	#container {
+		min-height:100%;
+		position:relative;
+	}
+	#header {
+		background:#ff0;
+		padding:10px;
+	}
+	#body {
+		padding:10px;
+		padding-bottom:60px;	/* Height of the footer */
+	}
+	#footer {
+		position:absolute;
+		bottom:-10px;
+		color:white;
+		width:100%;
+		height:60px;			/* Height of the footer */
+		background:black;
+	}
+	/* other non-essential CSS */
+	#header p,
+	#header h1 {
+		margin:0;
+		padding:10px 0 0 10px;
+	}
+	#footer p {
+		margin:0;
+		padding:10px;
+	}
+	</style>
+	<!--[if lt IE 7]>
+	<style media="screen" type="text/css">
+	#container {
+		height:100%;
+	}
+	</style>
+	<![endif]-->
+<style>
+html, * {-webkit-user-select:text!important; -moz-user-select:text!important;}
+</style></head>
 <body>
 <div class="middel">
 <dt>
@@ -192,10 +230,16 @@ img{height: auto; width: auto\9; width:100%;}
  <a href="https://share.weiyun.com/5JWvn69" class="rowtop1">观看毕业实践项目成果演示视频. </a>
 <a>      ｜        </a>
  <a href="https://zhaohuiyou.gitee.io/zhoubao" class="rowtop1">阅读毕业实践项目周报. </a>
-<!img src="https://github.com/zhaohuiyou/index/releases/download/1.0/zhaohuiyou.png"  /> 
  </dt>
 </div>
 
- </body>
+<div id="container">
+	<div id="footer">
+		<!-- Footer start -->
+		<p>The copyright © of this page belongs to Zhao Huiyou.</p>
+		<!-- Footer end -->
+	</div>
+</div>
+
 
 </html>
